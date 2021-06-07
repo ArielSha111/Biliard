@@ -1,0 +1,1 @@
+'From Squeak5.3 of 25 January 2021 [latest update: #19458] on 7 June 2021 at 6:28:05 pm'!Ball subclass: #WhiteBall	instanceVariableNames: ''	classVariableNames: ''	poolDictionaries: ''	category: 'maman16'!!WhiteBall methodsFor: 'initialize-release' stamp: 'Ariel 6/6/2021 19:39'!initialize	super initialize.	self color: Color white.	can_get_hit := false.! !
